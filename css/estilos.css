@@ -163,7 +163,7 @@ body .headerSlytherin {
         background-color: #7bd3a8; }
 
 body {
-  background-color: rgba(190, 190, 190, 0.795); }
+  background-color: rgba(238, 238, 238, 0.911); }
   body .mainIndex .tituloIndex {
     color: rgba(0, 0, 0, 0.781);
     font-size: 1.5625rem;
@@ -1143,7 +1143,7 @@ body footer {
     padding-top: 0;
     display: block; }
     body .menuHG .navbar .container-fluid {
-      background-color: rgba(219, 131, 113, 0.705); }
+      background-color: rgba(240, 164, 149, 0.979); }
       body .menuHG .navbar .container-fluid .collapse ul li a {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
@@ -1221,7 +1221,7 @@ body footer {
     padding-top: 0;
     display: block; }
     body .navbar .container-fluid {
-      background-color: rgba(185, 120, 219, 0.774); }
+      background-color: #d19cee; }
       body .navbar .container-fluid .collapse ul li a {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
