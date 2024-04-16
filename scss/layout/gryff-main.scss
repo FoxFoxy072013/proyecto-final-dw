@@ -1,0 +1,131 @@
+body {
+    .mainGryffindor {
+        .tituloGryffindor {
+            color: rgba(0, 0, 0, 0.781);
+            font-size: 1.5625rem;
+            display: flex;
+            justify-content: center;
+            h1 {
+                text-shadow: 2px 1px 2px rgba(15, 15, 15, 0.966);
+            }
+        }
+        section {
+            .parrafosGryffindor {
+                background-color: rgb(236, 181, 169);
+                margin: 30px 60px;
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+                h3 {
+                    font-size: 2rem;
+                    text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966);
+                }
+                p {
+                    font-size: 1.5rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966);
+                }
+            }
+            .parrafoCasaG {
+                display: grid;
+                @include grid (auto, auto, none, none, "tituloCasaG FotoLogoG" "textoCasaG FotoLogoG");
+                h3 {
+                    grid-area: tituloCasaG;
+                    margin: 1.25rem;
+                    justify-self: center;
+                }
+                p {
+                    grid-area: textoCasaG;
+                    margin: 1.25rem;
+                }
+                img {
+                    grid-area: FotoLogoG;
+                    align-self: center;
+                    justify-self: center;
+                }
+            }
+            .parrafoSalaG {
+                display: grid;
+                @include grid (auto, auto, none, none, "VideoSalaG tituloSalaG" "VideoSalaG textoSalaG");
+                h3 {
+                    grid-area: tituloSalaG;
+                    margin: 1.25rem;
+                    justify-self: center;
+                }
+                p {
+                    grid-area: textoSalaG;
+                    margin: 1.25rem;
+                }
+                video {
+                    grid-area: VideoSalaG;
+                    align-self: center;
+                    justify-self: center;
+                    width: 80%;
+                    &:hover {
+                        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.247);
+                    }
+                }
+            }
+            .jugabilidadCasaG {
+                display: grid;
+                @include grid (auto, auto, none, none, "tituloJugabilidadG FotoJugG" "textoJugG FotoJugG");
+                h3 {
+                    grid-area: tituloJugabilidadG;
+                    margin: 1.25rem;
+                    justify-self: center;
+                }
+                p {
+                    grid-area: textoJugG;
+                    margin: 1.25rem;
+                }
+                img {
+                    grid-area: FotoJugG;
+                    align-self: center;
+                    justify-self: center;
+                    padding: 20px;
+                }
+            }
+        }
+        section {
+            .tituloPersonajesGryff {
+                background-image: url(../assets/gryff/titulo-personajes.png);
+                text-align: center;
+                background-size:cover;
+                background-repeat: no-repeat;
+                padding: 1.875rem;
+                font-size: 1.875rem;
+                color: white;
+                text-shadow: 5px 2px 5px black;
+            }
+            .personajes {
+                display: flex;
+                flex-wrap: wrap;
+                @include flex (row, space-around, none, none);
+                .natsai {
+                    color: white;
+                    font-size: 1rem;
+                    border: 2px solid rgb(133, 24, 0);
+                    background-color: rgb(53, 0, 0);
+                    border-radius: 20%;
+                    text-align: center;
+                    box-shadow: 3px 9px 5px rgba(0, 0, 0, 0.596);
+                    margin-left: 40px;
+                    margin-right: 40px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    text-shadow: 8px 2px 5px rgba(0, 0, 0, 0.644);
+                }
+                .garreth {
+                    @extend .natsai;
+                }
+                .lucan {
+                    @extend .natsai;
+                }
+                .nellie {
+                    @extend .natsai;
+                }
+                .lawrence {
+                    @extend .natsai;
+                }
+            }
+        }
+    }
+}

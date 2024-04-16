@@ -1,0 +1,134 @@
+body {
+    .mainRavenclaw {
+        .tituloRavenclaw {
+            color: rgba(0, 0, 0, 0.781);
+            font-size: 1.5625rem;
+            display: flex;
+            justify-content: center;
+            h1 {
+                text-shadow: 2px 1px 2px rgba(15, 15, 15, 0.966);
+            }
+        }
+        section {
+            .parrafosRavenclaw {
+                background-color: rgb(140, 177, 219);
+                margin: 30px 60px;
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+                h3 {
+                    font-size: 2rem;
+                    text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966);
+                }
+                p {
+                    font-size: 1.5rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966);
+                }
+            }
+            .parrafoCasaR {
+                display: grid;
+                @include grid (auto, auto, none, none, "tituloCasaR FotoLogoR" "textoCasaR FotoLogoR");
+                h3 {
+                    grid-area: tituloCasaR;
+                    margin: 1.25rem;
+                    justify-self: center;
+                }
+                p {
+                    grid-area: textoCasaR;
+                    margin: 1.25rem;
+                }
+                img {
+                    grid-area: FotoLogoR;
+                    align-self: center;
+                    justify-self: center;
+                }
+            }
+            .parrafoSalaR {
+                display: grid;
+                @include grid (auto, auto, none, none, "VideoSalaR tituloSalaR" "VideoSalaR textoSalaR");
+                h3 {
+                    grid-area: tituloSalaR;
+                    margin: 1.25rem;
+                    justify-self: center;
+                }
+                p {
+                    grid-area: textoSalaR;
+                    margin: 1.25rem;
+                }
+                video {
+                    grid-area: VideoSalaR;
+                    align-self: center;
+                    justify-self: center;
+                    width: 80%;
+                    &:hover {
+                        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.247);
+                    }
+                }
+            }
+            .jugabilidadCasaR {
+                display: grid;
+                @include grid (auto, auto, none, none, "tituloJugabilidadR FotoJugR" "textoJugR FotoJugR");
+                h3 {
+                    grid-area: tituloJugabilidadR;
+                    margin: 1.25rem;
+                    justify-self: center;
+                }
+                p {
+                    grid-area: textoJugR;
+                    margin: 1.25rem;
+                }
+                img {
+                    grid-area: FotoJugR;
+                    align-self: center;
+                    justify-self: center;
+                    padding: 20px;
+                }
+            }
+        }
+        section {
+            .tituloPersonajesRaven {
+                background-image: url(../assets/raven/titulo-personajes.png);
+                text-align: center;
+                background-size:cover;
+                background-repeat: no-repeat;
+                padding: 1.875rem;
+                font-size: 1.875rem;
+                color: white;
+                text-shadow: 5px 2px 5px black;
+            }
+            .personajes {
+                display: flex;
+                flex-wrap: wrap;
+                @include flex (row, space-around, none, none);
+                .samantha {
+                    color: white;
+                    font-size: 1rem;
+                    border: 2px solid rgb(0, 9, 133);
+                    background-color: rgb(0, 1, 53);
+                    border-radius: 20%;
+                    text-align: center;
+                    box-shadow: 3px 9px 5px rgba(0, 0, 0, 0.596);
+                    margin-left: 40px;
+                    margin-right: 40px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    text-shadow: 8px 2px 5px rgba(0, 0, 0, 0.644);
+                    h3 {
+                        padding-bottom: 5px;
+                    }
+                }
+                .amit {
+                    @extend .samantha;
+                }
+                .everett {
+                    @extend .samantha;
+                }
+                .zenobia {
+                    @extend .samantha;
+                }
+                .sophronia {
+                    @extend .samantha;
+                }
+            }
+        }
+    }
+}

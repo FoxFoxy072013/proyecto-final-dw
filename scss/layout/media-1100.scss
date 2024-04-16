@@ -1,0 +1,154 @@
+@media (max-width: 1100px) {
+    body {
+        .headerIndex {
+            nav {
+                .menuIndex {
+                    ul {
+                        a {
+                            padding-top: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+        .mainIndex {
+            .tituloIndex {
+                font-size: 1.2rem;
+            }
+            section {
+                .parrafoIndexTrailer {
+                    display: flex;
+                    @include flex (column, center, center, 10px);
+                    h3 {
+                        order: 1;
+                    }
+                    p {
+                        order: 2;
+                    }
+                    video {
+                        order: 3;
+                    }
+                    h4 {
+                        order: 4;
+                    }
+                }
+            }
+        }
+    }
+    body {
+        .headerGryffindor {
+            nav {
+                div {
+                    ul {
+                        a {
+                            padding-top: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+        .mainGryffindor {
+            .tituloGryffindor {
+                h1 {
+                    font-size: 3rem;
+                }
+            }
+            section {
+                .parrafoSalaG {
+                    display: flex;
+                    @include flex (column, center, center, 10px);
+                    video {
+                        padding-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+    body {
+        .headerHufflepuff {
+            nav {
+                .menuHufflepuff {
+                    ul {
+                        a {
+                            padding-top: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+        .mainHufflepuff {
+            .tituloHufflepuff {
+                h1 {
+                    font-size: 3rem;
+                }
+            }
+            section {
+                .parrafoSalaH {
+                    display: flex;
+                    @include flex (column, center, center, 10px);
+                    video {
+                        padding-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+    body {
+        .headerRavenclaw {
+            nav {
+                .menuRavenclaw {
+                    ul {
+                        a {
+                            padding-top: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+        .mainRavenclaw {
+            .tituloRavenclaw {
+                h1 {
+                    font-size: 3rem;
+                }
+            }
+            section {
+                .parrafoSalaR {
+                    display: flex;
+                    @include flex (column, center, center, 10px);
+                    video {
+                        padding-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+    body {
+        .headerSlytherin {
+            nav {
+                .menuSlytherin {
+                    ul {
+                        a {
+                            padding-top: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+        .mainSlytherin {
+            .tituloSlytherin {
+                h1 {
+                    font-size: 3rem;
+                }
+            }
+            section {
+                .parrafoSalaS {
+                    display: flex;
+                    @include flex (column, center, center, 10px);
+                    video {
+                        padding-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

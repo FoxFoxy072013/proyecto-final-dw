@@ -1,0 +1,134 @@
+body {
+    .mainHufflepuff {
+        .tituloHufflepuff {
+            color: rgba(0, 0, 0, 0.781);
+            font-size: 1.5625rem;
+            display: flex;
+            justify-content: center;
+            h1 {
+                text-shadow: 2px 1px 2px rgba(15, 15, 15, 0.966);
+            }
+        }
+        section {
+            .parrafosHufflepuff {
+                background-color: rgb(207, 180, 135);
+                margin: 30px 60px;
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            }
+            h3 {
+                font-size: 2rem;
+                text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966);
+            }
+            p {
+                font-size: 1.5rem;
+                font-family: Arial, Helvetica, sans-serif;
+                text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966);
+            }
+            .parrafoCasaH {
+                display: grid;
+                @include grid (auto, auto, none, none, "tituloCasaH FotoLogoH" "textoCasaH FotoLogoH");
+                h3 {
+                    grid-area: tituloCasaH;
+                    margin: 1.25rem;
+                    justify-self: center;
+                }
+                p {
+                    grid-area: textoCasaH;
+                    margin: 1.25rem;
+                }
+                img {
+                    grid-area: FotoLogoH;
+                    align-self: center;
+                    justify-self: center;
+                }
+            }
+            .parrafoSalaH {
+                display: grid;
+                @include grid (auto, auto, none, none, "VideoSalaH tituloSalaH" "VideoSalaH textoSalaH");
+                h3 {
+                    grid-area: tituloSalaH;
+                    margin: 1.25rem;
+                    justify-self: center;
+                }
+                p {
+                    grid-area: textoSalaH;
+                    margin: 1.25rem;
+                }
+                video {
+                    grid-area: VideoSalaH;
+                    align-self: center;
+                    justify-self: center;
+                    width: 80%;
+                    &:hover {
+                        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.247);
+                    }
+                }
+            }
+            .jugabilidadCasaH {
+                display: grid;
+                @include grid (auto, auto, none, none, "tituloJugabilidadH FotoJugH" "textoJugH FotoJugH");
+                h3 {
+                    grid-area: tituloJugabilidadH;
+                    margin: 1.25rem;
+                    justify-self: center;
+                }
+                p {
+                    grid-area: textoJugH;
+                    margin: 1.25rem;
+                }
+                img {
+                    grid-area: FotoJugH;
+                    align-self: center;
+                    justify-self: center;
+                    padding: 20px;
+                }
+            }
+        }
+        section {
+            .tituloPersonajesHuff {
+                background-image: url(../assets/huff/titulo-personajes.png);
+                text-align: center;
+                background-size:cover;
+                background-repeat: no-repeat;
+                padding: 1.875rem;
+                font-size: 1.875rem;
+                color: white;
+                text-shadow: 5px 2px 5px black;
+            }
+            .personajes {
+                display: flex;
+                flex-wrap: wrap;
+                @include flex (row, space-around, none, none);
+                .poppy {
+                    color: white;
+                    font-size: 1rem;
+                    border: 2px solid rgb(120, 133, 0);
+                    background-color: rgb(52, 53, 0);
+                    border-radius: 20%;
+                    text-align: center;
+                    box-shadow: 3px 9px 5px rgba(0, 0, 0, 0.596);
+                    margin-left: 40px;
+                    margin-right: 40px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    text-shadow: 8px 2px 5px rgba(0, 0, 0, 0.644);
+                    h4 {
+                        padding-bottom: 5px;
+                    }
+                }
+                .arthur {
+                    @extend .poppy;
+                }
+                .evangeline {
+                    @extend .poppy;
+                }
+                .adelaide {
+                    @extend .poppy;
+                }
+                .lenora {
+                    @extend .poppy;
+                }
+            }
+        }
+    }
+}

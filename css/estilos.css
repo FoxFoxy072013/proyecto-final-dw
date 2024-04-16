@@ -1,0 +1,1343 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 25rem;
+  font-style: normal; }
+
+body .navbar {
+  display: none; }
+
+body .headerIndex {
+  background-color: #5b0888; }
+  body .headerIndex nav .menuIndex ul {
+    list-style-type: none;
+    background-color: #5b0888;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: right;
+    gap: none;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.603); }
+    body .headerIndex nav .menuIndex ul a {
+      text-decoration: none;
+      color: black;
+      background-color: rgba(140, 96, 201, 0.863);
+      padding-left: .9375rem;
+      padding-top: 1.25rem;
+      padding-right: .9375rem;
+      font-size: 1.875rem;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      text-shadow: 1px 1px 1px #441c47; }
+      body .headerIndex nav .menuIndex ul a:hover {
+        border: 3px #c40be9 solid;
+        background-color: rgba(173, 136, 226, 0.884); }
+
+body .navbarG {
+  display: none; }
+
+body .headerGryffindor {
+  background-color: #5d1607;
+  width: 100%; }
+  body .headerGryffindor nav div ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: right;
+    gap: none;
+    flex-wrap: wrap;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.603); }
+    body .headerGryffindor nav div ul li {
+      list-style-type: none; }
+    body .headerGryffindor nav div ul a {
+      list-style-type: none;
+      text-decoration: none;
+      background-color: rgba(236, 157, 135, 0.849);
+      color: black;
+      padding-left: .9375rem;
+      padding-top: 1.25rem;
+      padding-right: .9375rem;
+      font-size: 1.875rem;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      text-shadow: 1px 1px 1px #471c1c; }
+      body .headerGryffindor nav div ul a:hover {
+        border: 3px #cc2121 solid;
+        background-color: rgba(233, 164, 146, 0.842); }
+
+body .navbarH {
+  display: none; }
+
+body .headerHufflepuff {
+  background-color: #836535; }
+  body .headerHufflepuff nav .menuHufflepuff ul {
+    list-style-type: none;
+    background-color: #836535;
+    padding: 0;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.603);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: right;
+    gap: none; }
+    body .headerHufflepuff nav .menuHufflepuff ul a {
+      text-decoration: none;
+      color: black;
+      background-color: #e0c379;
+      padding-left: .9375rem;
+      padding-top: 1.25rem;
+      padding-right: .9375rem;
+      font-size: 1.875rem;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      text-shadow: 1px 1px 1px #47441c; }
+      body .headerHufflepuff nav .menuHufflepuff ul a:hover {
+        border: 3px #e9dc24 solid;
+        background-color: #ebd397; }
+
+body .navbarR {
+  display: none; }
+
+body .headerRavenclaw {
+  background-color: #1b2b3d; }
+  body .headerRavenclaw nav .menuRavenclaw ul {
+    list-style-type: none;
+    background-color: #1b2b3d;
+    padding: 0;
+    display: flex;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.603);
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: right;
+    gap: none; }
+    body .headerRavenclaw nav .menuRavenclaw ul a {
+      text-decoration: none;
+      color: black;
+      background-color: #8cb2e4;
+      padding-left: .9375rem;
+      padding-top: 1.25rem;
+      padding-right: .9375rem;
+      font-size: 1.875rem;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      text-shadow: 1px 1px 1px #1c1f47; }
+      body .headerRavenclaw nav .menuRavenclaw ul a:hover {
+        border: 3px #382ceb solid;
+        background-color: #97b9e6; }
+
+body .navbarS {
+  display: none; }
+
+body .headerSlytherin {
+  background-color: #0b3825; }
+  body .headerSlytherin nav .menuSlytherin ul {
+    list-style-type: none;
+    background-color: #0b3825;
+    padding: 0;
+    display: flex;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.603);
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: right;
+    gap: none; }
+    body .headerSlytherin nav .menuSlytherin ul a {
+      text-decoration: none;
+      color: black;
+      background-color: #80d1aa;
+      padding-left: .9375rem;
+      padding-top: 1.25rem;
+      padding-right: .9375rem;
+      font-size: 1.875rem;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      text-shadow: 1px 1px 1px #1c4722; }
+      body .headerSlytherin nav .menuSlytherin ul a:hover {
+        border: 3px #32eb2c solid;
+        background-color: #7bd3a8; }
+
+body {
+  background-color: rgba(116, 114, 114, 0.795); }
+  body .mainIndex .tituloIndex {
+    color: rgba(0, 0, 0, 0.781);
+    font-size: 1.5625rem;
+    display: flex;
+    justify-content: center; }
+    body .mainIndex .tituloIndex h1 {
+      text-shadow: 2px 1px 2px rgba(15, 15, 15, 0.966); }
+  body .mainIndex section .parrafosIndex {
+    background-color: #c582ec;
+    margin: 30px 60px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: none;
+    align-items: none;
+    grid-template-areas: "SobreHL FotoSobreHL" "TextoSobreHL FotoSobreHL"; }
+    body .mainIndex section .parrafosIndex p {
+      font-family: Arial, Helvetica, sans-serif;
+      text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966); }
+    body .mainIndex section .parrafosIndex h3 {
+      text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966); }
+    body .mainIndex section .parrafosIndex .sobreHLtitulo {
+      font-size: 2rem;
+      grid-area: SobreHL;
+      padding: 10px;
+      justify-self: center; }
+    body .mainIndex section .parrafosIndex .parrafoSobreHL {
+      font-size: 1.5rem;
+      grid-area: TextoSobreHL;
+      justify-self: center;
+      margin: 20px; }
+      body .mainIndex section .parrafosIndex .parrafoSobreHL span {
+        font-weight: bold; }
+    body .mainIndex section .parrafosIndex img {
+      grid-area: FotoSobreHL;
+      margin: 20px;
+      align-self: center;
+      justify-self: center; }
+  body .mainIndex section .parrafoIndexTrailer {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: none;
+    align-items: none;
+    grid-template-areas: "videoTrailer tituloJugabilidad" "videoTrailer textoJugabilidad" "tituloFotoTrailer textoJugabilidad"; }
+    body .mainIndex section .parrafoIndexTrailer .jugabIndexTitulo {
+      font-size: 2rem;
+      grid-area: tituloJugabilidad;
+      justify-self: center;
+      padding: 1.875rem; }
+    body .mainIndex section .parrafoIndexTrailer .parrafoJugabIndex {
+      font-size: 1.5rem;
+      grid-area: textoJugabilidad;
+      padding: 1.875rem; }
+    body .mainIndex section .parrafoIndexTrailer .trailer {
+      font-size: 1.25rem;
+      grid-area: tituloFotoTrailer;
+      justify-self: center;
+      margin-bottom: 50px; }
+    body .mainIndex section .parrafoIndexTrailer video {
+      grid-area: videoTrailer;
+      width: 90%;
+      justify-self: center;
+      align-self: center; }
+      body .mainIndex section .parrafoIndexTrailer video:hover {
+        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.247); }
+  body .mainIndex section .parrafoIndexFinales {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: none;
+    align-items: none;
+    grid-template-areas: "tituloTresFinales fotoTresFinales" "textoTresFinales fotoTresFinales"; }
+    body .mainIndex section .parrafoIndexFinales .tresFinTitulo {
+      font-size: 2rem;
+      grid-area: tituloTresFinales;
+      justify-self: center;
+      margin: 1.25rem; }
+    body .mainIndex section .parrafoIndexFinales .parrafoTresFin {
+      font-size: 1.5rem;
+      grid-area: textoTresFinales;
+      margin: 1.25rem; }
+    body .mainIndex section .parrafoIndexFinales img {
+      grid-area: fotoTresFinales;
+      justify-self: center;
+      align-self: center;
+      margin: 20px; }
+  body .mainIndex .titulosIndex {
+    background-image: url(../assets/titulo-personajes.png);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: .625rem;
+    font-size: 1.25rem;
+    color: white;
+    text-shadow: 5px 2px 5px black; }
+  body .mainIndex section .parrafosPersonajes {
+    background-color: #c582ec;
+    margin-left: 140px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
+  body .mainIndex section .parrafosPersonajes2 {
+    background-color: #c582ec;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 140px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
+  body .mainIndex section .personajeEleazar {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: auto;
+    justify-content: none;
+    align-items: none;
+    grid-template-areas: "fotoEleazar tituloEleazar" "fotoEleazar textoEleazar"; }
+    body .mainIndex section .personajeEleazar h3 {
+      font-size: 2rem;
+      grid-area: tituloEleazar;
+      justify-self: center;
+      margin: 1.25rem;
+      text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966); }
+    body .mainIndex section .personajeEleazar p {
+      font-size: 1.5rem;
+      grid-area: textoEleazar;
+      margin: 1.25rem;
+      font-family: Arial, Helvetica, sans-serif;
+      text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966); }
+    body .mainIndex section .personajeEleazar img {
+      grid-area: fotoEleazar;
+      align-self: center;
+      justify-self: center; }
+  body .mainIndex section .personajeRanrok {
+    display: grid;
+    grid-template-columns: 1fr 20%;
+    grid-template-rows: auto;
+    justify-content: none;
+    align-items: none;
+    grid-template-areas: "tituloRanrok fotoRanrok" "textoRanrok fotoRanrok"; }
+    body .mainIndex section .personajeRanrok h3 {
+      font-size: 2rem;
+      grid-area: tituloRanrok;
+      justify-self: center;
+      margin: 1.25rem;
+      text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966); }
+    body .mainIndex section .personajeRanrok p {
+      font-size: 1.5rem;
+      grid-area: textoRanrok;
+      margin: 1.25rem;
+      font-family: Arial, Helvetica, sans-serif;
+      text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966); }
+    body .mainIndex section .personajeRanrok img {
+      grid-area: fotoRanrok;
+      align-self: center;
+      justify-self: center; }
+  body .mainIndex section .personajeVictor {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: auto;
+    justify-content: none;
+    align-items: none;
+    grid-template-areas: "fotoVictor tituloVictor" "fotoVictor textoVictor"; }
+    body .mainIndex section .personajeVictor img {
+      grid-area: fotoVictor;
+      align-self: center;
+      justify-self: center; }
+    body .mainIndex section .personajeVictor h3 {
+      font-size: 2rem;
+      grid-area: tituloVictor;
+      justify-self: center;
+      margin: 1.25rem;
+      text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966); }
+    body .mainIndex section .personajeVictor p {
+      font-size: 1.5rem;
+      grid-area: textoVictor;
+      margin: 1.25rem;
+      font-family: Arial, Helvetica, sans-serif;
+      text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966); }
+  body .mainIndex .divForm form {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: none;
+    gap: none;
+    width: 70%;
+    margin: 20px auto;
+    margin-bottom: 0;
+    padding: 30px;
+    background-color: #c1a0e0;
+    flex-wrap: wrap;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    font-weight: bold; }
+    body .mainIndex .divForm form input {
+      width: 20%;
+      margin: 9px 0; }
+      body .mainIndex .divForm form input:hover {
+        background-color: rgba(255, 255, 255, 0.822); }
+    body .mainIndex .divForm form .enviar {
+      width: 100px;
+      align-self: center;
+      margin-top: 20px; }
+      body .mainIndex .divForm form .enviar:hover {
+        background-color: rgba(255, 255, 255, 0.726);
+        border: 2px rgba(0, 0, 0, 0.562) solid; }
+    body .mainIndex .divForm form label {
+      font-size: 25px; }
+
+body .mainGryffindor .tituloGryffindor {
+  color: rgba(0, 0, 0, 0.781);
+  font-size: 1.5625rem;
+  display: flex;
+  justify-content: center; }
+  body .mainGryffindor .tituloGryffindor h1 {
+    text-shadow: 2px 1px 2px rgba(15, 15, 15, 0.966); }
+
+body .mainGryffindor section .parrafosGryffindor {
+  background-color: #ecb5a9;
+  margin: 30px 60px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
+  body .mainGryffindor section .parrafosGryffindor h3 {
+    font-size: 2rem;
+    text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966); }
+  body .mainGryffindor section .parrafosGryffindor p {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966); }
+
+body .mainGryffindor section .parrafoCasaG {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: none;
+  align-items: none;
+  grid-template-areas: "tituloCasaG FotoLogoG" "textoCasaG FotoLogoG"; }
+  body .mainGryffindor section .parrafoCasaG h3 {
+    grid-area: tituloCasaG;
+    margin: 1.25rem;
+    justify-self: center; }
+  body .mainGryffindor section .parrafoCasaG p {
+    grid-area: textoCasaG;
+    margin: 1.25rem; }
+  body .mainGryffindor section .parrafoCasaG img {
+    grid-area: FotoLogoG;
+    align-self: center;
+    justify-self: center; }
+
+body .mainGryffindor section .parrafoSalaG {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: none;
+  align-items: none;
+  grid-template-areas: "VideoSalaG tituloSalaG" "VideoSalaG textoSalaG"; }
+  body .mainGryffindor section .parrafoSalaG h3 {
+    grid-area: tituloSalaG;
+    margin: 1.25rem;
+    justify-self: center; }
+  body .mainGryffindor section .parrafoSalaG p {
+    grid-area: textoSalaG;
+    margin: 1.25rem; }
+  body .mainGryffindor section .parrafoSalaG video {
+    grid-area: VideoSalaG;
+    align-self: center;
+    justify-self: center;
+    width: 80%; }
+    body .mainGryffindor section .parrafoSalaG video:hover {
+      box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.247); }
+
+body .mainGryffindor section .jugabilidadCasaG {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: none;
+  align-items: none;
+  grid-template-areas: "tituloJugabilidadG FotoJugG" "textoJugG FotoJugG"; }
+  body .mainGryffindor section .jugabilidadCasaG h3 {
+    grid-area: tituloJugabilidadG;
+    margin: 1.25rem;
+    justify-self: center; }
+  body .mainGryffindor section .jugabilidadCasaG p {
+    grid-area: textoJugG;
+    margin: 1.25rem; }
+  body .mainGryffindor section .jugabilidadCasaG img {
+    grid-area: FotoJugG;
+    align-self: center;
+    justify-self: center;
+    padding: 20px; }
+
+body .mainGryffindor section .tituloPersonajesGryff {
+  background-image: url(../assets/gryff/titulo-personajes.png);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1.875rem;
+  font-size: 1.875rem;
+  color: white;
+  text-shadow: 5px 2px 5px black; }
+
+body .mainGryffindor section .personajes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: none;
+  gap: none; }
+  body .mainGryffindor section .personajes .natsai, body .mainGryffindor section .personajes .garreth, body .mainGryffindor section .personajes .lucan, body .mainGryffindor section .personajes .nellie, body .mainGryffindor section .personajes .lawrence {
+    color: white;
+    font-size: 1rem;
+    border: 2px solid #851800;
+    background-color: #350000;
+    border-radius: 20%;
+    text-align: center;
+    box-shadow: 3px 9px 5px rgba(0, 0, 0, 0.596);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 8px 2px 5px rgba(0, 0, 0, 0.644); }
+
+body .mainHufflepuff .tituloHufflepuff {
+  color: rgba(0, 0, 0, 0.781);
+  font-size: 1.5625rem;
+  display: flex;
+  justify-content: center; }
+  body .mainHufflepuff .tituloHufflepuff h1 {
+    text-shadow: 2px 1px 2px rgba(15, 15, 15, 0.966); }
+
+body .mainHufflepuff section .parrafosHufflepuff {
+  background-color: #cfb487;
+  margin: 30px 60px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
+
+body .mainHufflepuff section h3 {
+  font-size: 2rem;
+  text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966); }
+
+body .mainHufflepuff section p {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966); }
+
+body .mainHufflepuff section .parrafoCasaH {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: none;
+  align-items: none;
+  grid-template-areas: "tituloCasaH FotoLogoH" "textoCasaH FotoLogoH"; }
+  body .mainHufflepuff section .parrafoCasaH h3 {
+    grid-area: tituloCasaH;
+    margin: 1.25rem;
+    justify-self: center; }
+  body .mainHufflepuff section .parrafoCasaH p {
+    grid-area: textoCasaH;
+    margin: 1.25rem; }
+  body .mainHufflepuff section .parrafoCasaH img {
+    grid-area: FotoLogoH;
+    align-self: center;
+    justify-self: center; }
+
+body .mainHufflepuff section .parrafoSalaH {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: none;
+  align-items: none;
+  grid-template-areas: "VideoSalaH tituloSalaH" "VideoSalaH textoSalaH"; }
+  body .mainHufflepuff section .parrafoSalaH h3 {
+    grid-area: tituloSalaH;
+    margin: 1.25rem;
+    justify-self: center; }
+  body .mainHufflepuff section .parrafoSalaH p {
+    grid-area: textoSalaH;
+    margin: 1.25rem; }
+  body .mainHufflepuff section .parrafoSalaH video {
+    grid-area: VideoSalaH;
+    align-self: center;
+    justify-self: center;
+    width: 80%; }
+    body .mainHufflepuff section .parrafoSalaH video:hover {
+      box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.247); }
+
+body .mainHufflepuff section .jugabilidadCasaH {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: none;
+  align-items: none;
+  grid-template-areas: "tituloJugabilidadH FotoJugH" "textoJugH FotoJugH"; }
+  body .mainHufflepuff section .jugabilidadCasaH h3 {
+    grid-area: tituloJugabilidadH;
+    margin: 1.25rem;
+    justify-self: center; }
+  body .mainHufflepuff section .jugabilidadCasaH p {
+    grid-area: textoJugH;
+    margin: 1.25rem; }
+  body .mainHufflepuff section .jugabilidadCasaH img {
+    grid-area: FotoJugH;
+    align-self: center;
+    justify-self: center;
+    padding: 20px; }
+
+body .mainHufflepuff section .tituloPersonajesHuff {
+  background-image: url(../assets/huff/titulo-personajes.png);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1.875rem;
+  font-size: 1.875rem;
+  color: white;
+  text-shadow: 5px 2px 5px black; }
+
+body .mainHufflepuff section .personajes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: none;
+  gap: none; }
+  body .mainHufflepuff section .personajes .poppy, body .mainHufflepuff section .personajes .arthur, body .mainHufflepuff section .personajes .evangeline, body .mainHufflepuff section .personajes .adelaide, body .mainHufflepuff section .personajes .lenora {
+    color: white;
+    font-size: 1rem;
+    border: 2px solid #788500;
+    background-color: #343500;
+    border-radius: 20%;
+    text-align: center;
+    box-shadow: 3px 9px 5px rgba(0, 0, 0, 0.596);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 8px 2px 5px rgba(0, 0, 0, 0.644); }
+    body .mainHufflepuff section .personajes .poppy h4, body .mainHufflepuff section .personajes .arthur h4, body .mainHufflepuff section .personajes .evangeline h4, body .mainHufflepuff section .personajes .adelaide h4, body .mainHufflepuff section .personajes .lenora h4 {
+      padding-bottom: 5px; }
+
+body .mainRavenclaw .tituloRavenclaw {
+  color: rgba(0, 0, 0, 0.781);
+  font-size: 1.5625rem;
+  display: flex;
+  justify-content: center; }
+  body .mainRavenclaw .tituloRavenclaw h1 {
+    text-shadow: 2px 1px 2px rgba(15, 15, 15, 0.966); }
+
+body .mainRavenclaw section .parrafosRavenclaw {
+  background-color: #8cb1db;
+  margin: 30px 60px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
+  body .mainRavenclaw section .parrafosRavenclaw h3 {
+    font-size: 2rem;
+    text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966); }
+  body .mainRavenclaw section .parrafosRavenclaw p {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966); }
+
+body .mainRavenclaw section .parrafoCasaR {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: none;
+  align-items: none;
+  grid-template-areas: "tituloCasaR FotoLogoR" "textoCasaR FotoLogoR"; }
+  body .mainRavenclaw section .parrafoCasaR h3 {
+    grid-area: tituloCasaR;
+    margin: 1.25rem;
+    justify-self: center; }
+  body .mainRavenclaw section .parrafoCasaR p {
+    grid-area: textoCasaR;
+    margin: 1.25rem; }
+  body .mainRavenclaw section .parrafoCasaR img {
+    grid-area: FotoLogoR;
+    align-self: center;
+    justify-self: center; }
+
+body .mainRavenclaw section .parrafoSalaR {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: none;
+  align-items: none;
+  grid-template-areas: "VideoSalaR tituloSalaR" "VideoSalaR textoSalaR"; }
+  body .mainRavenclaw section .parrafoSalaR h3 {
+    grid-area: tituloSalaR;
+    margin: 1.25rem;
+    justify-self: center; }
+  body .mainRavenclaw section .parrafoSalaR p {
+    grid-area: textoSalaR;
+    margin: 1.25rem; }
+  body .mainRavenclaw section .parrafoSalaR video {
+    grid-area: VideoSalaR;
+    align-self: center;
+    justify-self: center;
+    width: 80%; }
+    body .mainRavenclaw section .parrafoSalaR video:hover {
+      box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.247); }
+
+body .mainRavenclaw section .jugabilidadCasaR {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: none;
+  align-items: none;
+  grid-template-areas: "tituloJugabilidadR FotoJugR" "textoJugR FotoJugR"; }
+  body .mainRavenclaw section .jugabilidadCasaR h3 {
+    grid-area: tituloJugabilidadR;
+    margin: 1.25rem;
+    justify-self: center; }
+  body .mainRavenclaw section .jugabilidadCasaR p {
+    grid-area: textoJugR;
+    margin: 1.25rem; }
+  body .mainRavenclaw section .jugabilidadCasaR img {
+    grid-area: FotoJugR;
+    align-self: center;
+    justify-self: center;
+    padding: 20px; }
+
+body .mainRavenclaw section .tituloPersonajesRaven {
+  background-image: url(../assets/raven/titulo-personajes.png);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1.875rem;
+  font-size: 1.875rem;
+  color: white;
+  text-shadow: 5px 2px 5px black; }
+
+body .mainRavenclaw section .personajes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: none;
+  gap: none; }
+  body .mainRavenclaw section .personajes .samantha, body .mainRavenclaw section .personajes .amit, body .mainRavenclaw section .personajes .everett, body .mainRavenclaw section .personajes .zenobia, body .mainRavenclaw section .personajes .sophronia {
+    color: white;
+    font-size: 1rem;
+    border: 2px solid #000985;
+    background-color: #000135;
+    border-radius: 20%;
+    text-align: center;
+    box-shadow: 3px 9px 5px rgba(0, 0, 0, 0.596);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 8px 2px 5px rgba(0, 0, 0, 0.644); }
+    body .mainRavenclaw section .personajes .samantha h3, body .mainRavenclaw section .personajes .amit h3, body .mainRavenclaw section .personajes .everett h3, body .mainRavenclaw section .personajes .zenobia h3, body .mainRavenclaw section .personajes .sophronia h3 {
+      padding-bottom: 5px; }
+
+body .mainSlytherin .tituloSlytherin {
+  color: rgba(0, 0, 0, 0.781);
+  font-size: 1.5625rem;
+  display: flex;
+  justify-content: center; }
+  body .mainSlytherin .tituloSlytherin h1 {
+    text-shadow: 2px 1px 2px rgba(15, 15, 15, 0.966); }
+
+body .mainSlytherin section .parrafosSlytherin {
+  background-color: #97ddbf;
+  margin: 30px 60px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
+  body .mainSlytherin section .parrafosSlytherin h3 {
+    font-size: 2rem;
+    text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966); }
+  body .mainSlytherin section .parrafosSlytherin p {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966); }
+
+body .mainSlytherin section .parrafoCasaS {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: none;
+  align-items: none;
+  grid-template-areas: "tituloCasaS FotoLogoS" "textoCasaS FotoLogoS"; }
+  body .mainSlytherin section .parrafoCasaS h3 {
+    grid-area: tituloCasaS;
+    margin: 1.25rem;
+    justify-self: center; }
+  body .mainSlytherin section .parrafoCasaS p {
+    grid-area: textoCasaS;
+    margin: 1.25rem; }
+  body .mainSlytherin section .parrafoCasaS img {
+    grid-area: FotoLogoS;
+    align-self: center;
+    justify-self: center; }
+
+body .mainSlytherin section .parrafoSalaS {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: none;
+  align-items: none;
+  grid-template-areas: "VideoSalaS tituloSalaS" "VideoSalaS textoSalaS"; }
+  body .mainSlytherin section .parrafoSalaS h3 {
+    grid-area: tituloSalaS;
+    margin: 1.25rem;
+    justify-self: center; }
+  body .mainSlytherin section .parrafoSalaS p {
+    grid-area: textoSalaS;
+    margin: 1.25rem; }
+  body .mainSlytherin section .parrafoSalaS video {
+    grid-area: VideoSalaS;
+    align-self: center;
+    justify-self: center;
+    width: 80%; }
+    body .mainSlytherin section .parrafoSalaS video:hover {
+      box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.247); }
+
+body .mainSlytherin section .jugabilidadCasaS {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: none;
+  align-items: none;
+  grid-template-areas: "tituloJugabilidadS FotoJugS" "textoJugS FotoJugS"; }
+  body .mainSlytherin section .jugabilidadCasaS h3 {
+    grid-area: tituloJugabilidadS;
+    margin: 1.25rem;
+    justify-self: center; }
+  body .mainSlytherin section .jugabilidadCasaS p {
+    grid-area: textoJugS;
+    margin: 1.25rem; }
+  body .mainSlytherin section .jugabilidadCasaS img {
+    grid-area: FotoJugS;
+    align-self: center;
+    justify-self: center;
+    padding: 20px; }
+
+body .mainSlytherin section .tituloPersonajesSly {
+  background-image: url(../assets/sly/titulo-personajes.png);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1.875rem;
+  font-size: 1.875rem;
+  color: white;
+  text-shadow: 5px 2px 5px black; }
+
+body .mainSlytherin section .personajes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: none;
+  gap: none; }
+  body .mainSlytherin section .personajes .sebastian, body .mainSlytherin section .personajes .imelda, body .mainSlytherin section .personajes .ominis, body .mainSlytherin section .personajes .nerida, body .mainSlytherin section .personajes .grace {
+    color: white;
+    font-size: 1rem;
+    border: 2px solid #048500;
+    background-color: #003509;
+    border-radius: 20%;
+    text-align: center;
+    box-shadow: 3px 9px 5px rgba(0, 0, 0, 0.596);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 8px 2px 5px rgba(0, 0, 0, 0.644); }
+    body .mainSlytherin section .personajes .sebastian h4, body .mainSlytherin section .personajes .imelda h4, body .mainSlytherin section .personajes .ominis h4, body .mainSlytherin section .personajes .nerida h4, body .mainSlytherin section .personajes .grace h4 {
+      padding-bottom: 10px; }
+
+body footer {
+  background-color: #272525;
+  display: flex;
+  height: 70px;
+  flex-direction: none;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: none; }
+  body footer .footerNombre {
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 10px; }
+
+@media (max-width: 1440px) {
+  body .mainIndex section .parrafosIndex .parrafoSobreHL {
+    font-size: 1.1rem; }
+  body .mainIndex section .parrafosIndex .sobreHLtitulo {
+    font-size: 1.8rem; }
+  body .mainIndex section .parrafosIndex .parrafoJugabIndex {
+    font-size: 1.1rem; }
+  body .mainIndex section .parrafosIndex .jugabIndexTitulo {
+    font-size: 1.8rem; }
+  body .mainIndex section .parrafosIndex .tresFinTitulo {
+    font-size: 1.8rem; }
+  body .mainIndex section .parrafosIndex .parrafoTresFin {
+    font-size: 1.1rem; }
+  body .mainIndex section .parrafosIndex img {
+    width: 100%;
+    padding-right: 20px;
+    height: auto; }
+  body .mainIndex section .personajeEleazar h3 {
+    font-size: 1.8rem; }
+  body .mainIndex section .personajeEleazar p {
+    font-size: 1.1rem; }
+  body .mainIndex section .personajeEleazar img {
+    width: 100%;
+    height: auto; }
+  body .mainIndex section .personajeRanrok h3 {
+    font-size: 1.8rem; }
+  body .mainIndex section .personajeRanrok p {
+    font-size: 1.1rem; }
+  body .mainIndex section .personajeRanrok img {
+    width: 100%;
+    height: auto; }
+  body .mainIndex section .personajeVictor h3 {
+    font-size: 1.8rem; }
+  body .mainIndex section .personajeVictor p {
+    font-size: 1.1rem; }
+  body .mainIndex section .personajeVictor img {
+    width: 100%;
+    height: auto; }
+  body .mainGryffindor section .parrafosGryffindor h3 {
+    font-size: 1.8rem; }
+  body .mainGryffindor section .parrafosGryffindor p {
+    font-size: 1.1rem; }
+  body .mainGryffindor section .parrafosGryffindor img {
+    width: 100%;
+    padding-right: 20px;
+    height: auto; }
+  body .mainGryffindor section .personajes div h4 {
+    font-size: 1rem; }
+  body .mainHufflepuff section .parrafosHufflepuff h3 {
+    font-size: 1.8rem; }
+  body .mainHufflepuff section .parrafosHufflepuff p {
+    font-size: 1.1rem; }
+  body .mainHufflepuff section .parrafosHufflepuff img {
+    width: 100%;
+    padding-right: 20px;
+    height: auto; }
+  body .mainHufflepuff section .personajes div h4 {
+    font-size: 1rem; }
+  body .mainRavenclaw section .parrafosRavenclaw h3 {
+    font-size: 1.8rem; }
+  body .mainRavenclaw section .parrafosRavenclaw p {
+    font-size: 1.1rem; }
+  body .mainRavenclaw section .parrafosRavenclaw img {
+    width: 100%;
+    padding-right: 20px;
+    height: auto; }
+  body .mainRavenclaw section .personajes div h4 {
+    font-size: 1rem; }
+  body .mainSlytherin section .parrafosSlytherin h3 {
+    font-size: 1.8rem; }
+  body .mainSlytherin section .parrafosSlytherin p {
+    font-size: 1.1rem; }
+  body .mainSlytherin section .parrafosSlytherin img {
+    width: 100%;
+    padding-right: 20px;
+    height: auto; }
+  body .mainSlytherin section .personajes div h4 {
+    font-size: 1rem; } }
+
+@media (max-width: 1255px) {
+  body .mainIndex section .parrafosIndex .parrafoSobreHL {
+    font-size: 1rem; }
+  body .mainIndex section .parrafosIndex .parrafoJugabIndex {
+    font-size: 1rem; }
+  body .mainIndex section .parrafosIndex .parrafoTresFin {
+    font-size: 1rem; }
+  body .mainIndex section .personajeEleazar h3 {
+    font-size: 1.7rem; }
+  body .mainIndex section .personajeEleazar p {
+    font-size: 1rem; }
+  body .mainIndex section .personajeRanrok h3 {
+    font-size: 1.7rem; }
+  body .mainIndex section .personajeRanrok p {
+    font-size: 1rem; }
+  body .mainIndex section .personajeVictor h3 {
+    font-size: 1.7rem; }
+  body .mainIndex section .personajeVictor p {
+    font-size: 1rem; }
+  body .mainGryffindor section .parrafosGryffindor p {
+    font-size: 1rem; }
+  body .mainHufflepuff section .parrafosHufflepuff p {
+    font-size: 1rem; }
+  body .mainRavenclaw section .parrafosRavenclaw p {
+    font-size: 1rem; }
+  body .mainSlytherin section .parrafosSlytherin p {
+    font-size: 1rem; } }
+
+@media (max-width: 1100px) {
+  body .headerIndex nav .menuIndex ul a {
+    padding-top: 0.8rem; }
+  body .mainIndex .tituloIndex {
+    font-size: 1.2rem; }
+  body .mainIndex section .parrafoIndexTrailer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; }
+    body .mainIndex section .parrafoIndexTrailer h3 {
+      order: 1; }
+    body .mainIndex section .parrafoIndexTrailer p {
+      order: 2; }
+    body .mainIndex section .parrafoIndexTrailer video {
+      order: 3; }
+    body .mainIndex section .parrafoIndexTrailer h4 {
+      order: 4; }
+  body .headerGryffindor nav div ul a {
+    padding-top: 0.8rem; }
+  body .mainGryffindor .tituloGryffindor h1 {
+    font-size: 3rem; }
+  body .mainGryffindor section .parrafoSalaG {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; }
+    body .mainGryffindor section .parrafoSalaG video {
+      padding-top: 20px; }
+  body .headerHufflepuff nav .menuHufflepuff ul a {
+    padding-top: 0.8rem; }
+  body .mainHufflepuff .tituloHufflepuff h1 {
+    font-size: 3rem; }
+  body .mainHufflepuff section .parrafoSalaH {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; }
+    body .mainHufflepuff section .parrafoSalaH video {
+      padding-top: 20px; }
+  body .headerRavenclaw nav .menuRavenclaw ul a {
+    padding-top: 0.8rem; }
+  body .mainRavenclaw .tituloRavenclaw h1 {
+    font-size: 3rem; }
+  body .mainRavenclaw section .parrafoSalaR {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; }
+    body .mainRavenclaw section .parrafoSalaR video {
+      padding-top: 20px; }
+  body .headerSlytherin nav .menuSlytherin ul a {
+    padding-top: 0.8rem; }
+  body .mainSlytherin .tituloSlytherin h1 {
+    font-size: 3rem; }
+  body .mainSlytherin section .parrafoSalaS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; }
+    body .mainSlytherin section .parrafoSalaS video {
+      padding-top: 20px; } }
+
+@media (max-width: 923px) {
+  body .headerIndex nav .menuIndex ul a {
+    font-size: 1.5rem; }
+  body .headerGryffindor nav div ul a {
+    font-size: 1.5rem; }
+  body .headerHufflepuff nav .menuHufflepuff ul a {
+    font-size: 1.5rem; }
+  body .headerRavenclaw nav .menuRavenclaw ul a {
+    font-size: 1.5rem; }
+  body .headerSlytherin nav .menuSlytherin ul a {
+    font-size: 1.5rem; } }
+
+@media (max-width: 768px) {
+  body .headerIndex nav .menuIndex ul a {
+    font-size: 1.3rem; }
+  body .mainIndex .tituloIndex {
+    font-size: 1.1rem; }
+  body .mainIndex section .parrafosIndex .sobreHLtitulo {
+    font-size: 1.5rem; }
+  body .mainIndex section .parrafosIndex .parrafoSobreHL {
+    font-size: 0.7rem; }
+  body .mainIndex section .parrafosIndex .jugabIndexTitulo {
+    font-size: 1.5rem;
+    padding-bottom: 10px; }
+  body .mainIndex section .parrafosIndex .parrafoJugabIndex {
+    font-size: 0.7rem;
+    padding-top: 0; }
+  body .mainIndex section .parrafosIndex video {
+    width: 70%;
+    height: auto; }
+  body .mainIndex section .parrafosIndex .trailer {
+    font-size: 1rem; }
+  body .mainIndex section .parrafosIndex .tresFinTitulo {
+    font-size: 1.5rem; }
+  body .mainIndex section .parrafosIndex .parrafoTresFin {
+    font-size: 0.7rem; }
+  body .mainIndex section .personajeEleazar h3 {
+    font-size: 1.5rem; }
+  body .mainIndex section .personajeEleazar p {
+    font-size: 0.7rem; }
+  body .mainIndex section .personajeRanrok h3 {
+    font-size: 1.5rem; }
+  body .mainIndex section .personajeRanrok p {
+    font-size: 0.7rem; }
+  body .mainIndex section .personajeVictor h3 {
+    font-size: 1.5rem; }
+  body .mainIndex section .personajeVictor p {
+    font-size: 0.7rem; }
+  body .mainIndex .divForm form label {
+    font-size: 1rem; }
+  body .mainIndex .divForm form input {
+    width: 40%; }
+  body .headerGryffindor nav div ul a {
+    font-size: 1.3rem; }
+  body .mainGryffindor .tituloGryffindor h1 {
+    font-size: 2.5rem; }
+  body .mainGryffindor section .parrafosGryffindor h3 {
+    font-size: 1.5rem; }
+  body .mainGryffindor section .parrafosGryffindor p {
+    font-size: 0.7rem; }
+  body .mainGryffindor section .parrafosGryffindor video {
+    width: 70%;
+    height: auto; }
+  body .headerHufflepuff nav .menuHufflepuff ul a {
+    font-size: 1.3rem; }
+  body .mainHufflepuff .tituloHufflepuff h1 {
+    font-size: 2.5rem; }
+  body .mainHufflepuff section .parrafosHufflepuff h3 {
+    font-size: 1.5rem; }
+  body .mainHufflepuff section .parrafosHufflepuff p {
+    font-size: 0.7rem; }
+  body .mainHufflepuff section .parrafosHufflepuff video {
+    width: 70%;
+    height: auto; }
+  body .headerRavenclaw nav .menuRavenclaw ul a {
+    font-size: 1.3rem; }
+  body .mainRavenclaw .tituloRavenclaw h1 {
+    font-size: 2.5rem; }
+  body .mainRavenclaw section .parrafosRavenclaw h3 {
+    font-size: 1.5rem; }
+  body .mainRavenclaw section .parrafosRavenclaw p {
+    font-size: 0.7rem; }
+  body .mainRavenclaw section .parrafosRavenclaw video {
+    width: 70%;
+    height: auto; }
+  body .headerSlytherin nav .menuSlytherin ul a {
+    font-size: 1.3rem; }
+  body .mainSlytherin .tituloSlytherin h1 {
+    font-size: 2.5rem; }
+  body .mainSlytherin section .parrafosSlytherin h3 {
+    font-size: 1.5rem; }
+  body .mainSlytherin section .parrafosSlytherin p {
+    font-size: 0.7rem; }
+  body .mainSlytherin section .parrafosSlytherin video {
+    width: 70%;
+    height: auto; } }
+
+@media (max-width: 674px) {
+  body .headerIndex nav div a img {
+    width: 30%; }
+  body .headerIndex nav .menuIndex ul a {
+    font-size: 1rem; }
+  body .mainIndex section .parrafosIndex .sobreHLtitulo {
+    font-size: 1.3rem; }
+  body .mainIndex section .parrafosIndex .parrafoSobreHL {
+    font-size: 0.6rem; }
+  body .mainIndex section .parrafosIndex .jugabIndexTitulo {
+    font-size: 1.3rem; }
+  body .mainIndex section .parrafosIndex .parrafoJugabIndex {
+    font-size: 0.6rem; }
+  body .mainIndex section .parrafosIndex .tresFinTitulo {
+    font-size: 1.3rem; }
+  body .mainIndex section .parrafosIndex .parrafoTresFin {
+    font-size: 0.6rem; }
+  body .mainIndex section .parrafosPersonajes h3 {
+    font-size: 100%; }
+  body .mainIndex section .parrafosPersonajes p {
+    font-size: 0.6rem; }
+  body .mainIndex section .parrafosPersonajes2 h3 {
+    font-size: 100%; }
+  body .mainIndex section .parrafosPersonajes2 p {
+    font-size: 0.6rem; }
+  body .menuHG .navbar {
+    padding-top: 0;
+    display: block; }
+    body .menuHG .navbar .container-fluid {
+      background-color: #5d1607; }
+      body .menuHG .navbar .container-fluid .collapse ul li a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1rem; }
+      body .menuHG .navbar .container-fluid .navbar-brand img {
+        width: 30%; }
+  body .headerGryffindor {
+    display: none; }
+  body .mainGryffindor section .parrafosGryffindor h3 {
+    font-size: 1.3rem; }
+  body .mainGryffindor section .parrafosGryffindor p {
+    font-size: 0.6rem; }
+  body .menuHH .navbar {
+    padding-top: 0;
+    display: block; }
+    body .menuHH .navbar .container-fluid {
+      background-color: #b48f53; }
+      body .menuHH .navbar .container-fluid .collapse ul li a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1rem; }
+      body .menuHH .navbar .container-fluid .navbar-brand img {
+        width: 30%; }
+  body .headerHufflepuff {
+    display: none; }
+  body .mainHufflepuff section .parrafosHufflepuff h3 {
+    font-size: 1.3rem; }
+  body .mainHufflepuff section .parrafosHufflepuff p {
+    font-size: 0.6rem; }
+  body .menuHR .navbar {
+    padding-top: 0;
+    display: block; }
+    body .menuHR .navbar .container-fluid {
+      background-color: #4974a5; }
+      body .menuHR .navbar .container-fluid .collapse ul li a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1rem; }
+      body .menuHR .navbar .container-fluid .navbar-brand img {
+        width: 30%; }
+  body .headerRavenclaw {
+    display: none; }
+  body .mainRavenclaw section .parrafosRavenclaw h3 {
+    font-size: 1.3rem; }
+  body .mainRavenclaw section .parrafosRavenclaw p {
+    font-size: 0.6rem; }
+  body .menuHS .navbar {
+    padding-top: 0;
+    display: block; }
+    body .menuHS .navbar .container-fluid {
+      background-color: rgba(43, 138, 98, 0.877); }
+      body .menuHS .navbar .container-fluid .collapse ul li a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1rem; }
+      body .menuHS .navbar .container-fluid .navbar-brand img {
+        width: 30%; }
+  body .headerSlytherin {
+    display: none; }
+  body .mainSlytherin section .parrafosSlytherin h3 {
+    font-size: 1.3rem; }
+  body .mainSlytherin section .parrafosSlytherin p {
+    font-size: 0.6rem; } }
+
+@media (max-width: 560px) {
+  body .navbar {
+    padding-top: 0;
+    display: block; }
+    body .navbar .container-fluid {
+      background-color: #5b0888; }
+      body .navbar .container-fluid .collapse ul li a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1rem; }
+      body .navbar .container-fluid .navbar-brand img {
+        width: 30%; }
+  body .headerIndex {
+    display: none; }
+  body .mainIndex .tituloIndex {
+    font-size: 0.9rem;
+    width: 100%; }
+  body .mainIndex section .parrafoIndexSobreHL {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; }
+    body .mainIndex section .parrafoIndexSobreHL img {
+      padding: 0 20px 0 20px; }
+  body .mainIndex section .parrafoIndexTrailer video {
+    width: 100%;
+    padding: 0 20px 0 20px; }
+  body .mainIndex section .parrafoIndexFinales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; }
+    body .mainIndex section .parrafoIndexFinales img {
+      padding: 0 20px 0 20px; }
+  body .mainIndex section .parrafosPersonajes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; }
+    body .mainIndex section .parrafosPersonajes img {
+      padding: 0 20px 0 20px;
+      width: 70%; }
+    body .mainIndex section .parrafosPersonajes p {
+      padding: 0 20px 0 20px;
+      margin: 0 0 20px 0; }
+    body .mainIndex section .parrafosPersonajes h3 {
+      margin-bottom: 0;
+      margin-top: 0; }
+  body .mainIndex section .parrafosPersonajes2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; }
+    body .mainIndex section .parrafosPersonajes2 img {
+      padding: 0 20px 0 20px;
+      width: 70%; }
+    body .mainIndex section .parrafosPersonajes2 p {
+      padding: 0 20px 0 20px;
+      margin: 0; }
+    body .mainIndex section .parrafosPersonajes2 h3 {
+      margin-bottom: 0; }
+  body .mainIndex .divForm form .inputs {
+    width: 90%; }
+  body footer {
+    height: 50px; }
+    body footer .footerNombre {
+      margin-bottom: 0; }
+      body footer .footerNombre h5 {
+        font-size: 0.9rem; }
+    body footer .redes {
+      display: flex;
+      align-items: flex-end; }
+      body footer .redes img {
+        max-width: 70%;
+        height: auto; }
+  body .mainGryffindor section .parrafosGryffindor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; }
+    body .mainGryffindor section .parrafosGryffindor img {
+      padding: 0 20px 0 20px; }
+    body .mainGryffindor section .parrafosGryffindor video {
+      width: 100%;
+      padding: 0 20px 0 20px; }
+  body .mainHufflepuff section .parrafosHufflepuff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; }
+    body .mainHufflepuff section .parrafosHufflepuff img {
+      padding: 0 20px 0 20px; }
+    body .mainHufflepuff section .parrafosHufflepuff video {
+      width: 100%;
+      padding: 0 20px 0 20px; }
+  body .mainRavenclaw section .parrafosRavenclaw {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; }
+    body .mainRavenclaw section .parrafosRavenclaw img {
+      padding: 0 20px 0 20px; }
+    body .mainRavenclaw section .parrafosRavenclaw video {
+      width: 100%;
+      padding: 0 20px 0 20px; }
+  body .mainSlytherin section .parrafosSlytherin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; }
+    body .mainSlytherin section .parrafosSlytherin img {
+      padding: 0 20px 0 20px; }
+    body .mainSlytherin section .parrafosSlytherin video {
+      width: 100%;
+      padding: 0 20px 0 20px; } }
+
+@media (max-width: 415px) {
+  body .mainIndex .divForm form .inputs {
+    height: 40%; }
+  body .mainIndex .divForm form label {
+    font-size: 0.5rem; }
+  body .mainIndex .divForm form textarea {
+    width: 100%;
+    align-self: center; }
+  body footer .footerNombre h5 {
+    font-size: 0.5rem; } }

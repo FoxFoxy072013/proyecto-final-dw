@@ -1,0 +1,231 @@
+body {
+    background-color: rgba(116, 114, 114, 0.795);
+    .mainIndex {
+        .tituloIndex {
+            color: rgba(0, 0, 0, 0.781);
+            font-size: 1.5625rem;
+            display: flex;
+            justify-content: center;
+            h1 {
+                text-shadow: 2px 1px 2px rgba(15, 15, 15, 0.966);
+            }
+        }
+        section {
+            .parrafosIndex {
+                background-color: rgb(197, 130, 236);
+                margin: 30px 60px;
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+                display: grid;
+                @include grid (auto, auto, none, none, "SobreHL FotoSobreHL" "TextoSobreHL FotoSobreHL");
+                p {
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966);
+                }
+                h3 {
+                    text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966);
+                }
+                .sobreHLtitulo {
+                    font-size: 2rem;
+                    grid-area: SobreHL;
+                    padding: 10px;
+                    justify-self: center;
+                }
+                .parrafoSobreHL {
+                    font-size: 1.5rem;
+                    grid-area: TextoSobreHL;
+                    justify-self: center;
+                    margin: 20px;
+                    span {
+                        font-weight: bold;
+                    }
+                }
+                img {
+                    grid-area: FotoSobreHL;
+                    margin: 20px;
+                    align-self: center;
+                    justify-self: center;
+                }
+            }
+            .parrafoIndexTrailer {
+                @include grid (auto, auto, none, none, "videoTrailer tituloJugabilidad" "videoTrailer textoJugabilidad" "tituloFotoTrailer textoJugabilidad");
+                .jugabIndexTitulo {
+                    font-size: 2rem;
+                    grid-area: tituloJugabilidad;
+                    justify-self: center;
+                    padding: 1.875rem;
+                }
+                .parrafoJugabIndex {
+                    font-size: 1.5rem;
+                    grid-area: textoJugabilidad;
+                    padding: 1.875rem;
+                }
+                .trailer {
+                    font-size: 1.25rem;
+                    grid-area: tituloFotoTrailer;
+                    justify-self: center;
+                    margin-bottom: 50px;
+                }
+                video {
+                    grid-area: videoTrailer;
+                    width: 90%;
+                    justify-self: center;
+                    align-self: center;
+                    &:hover {
+                        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.247);
+                    }
+                }
+            }
+            .parrafoIndexFinales {
+                @include grid (auto, auto, none, none, "tituloTresFinales fotoTresFinales" "textoTresFinales fotoTresFinales");
+                .tresFinTitulo {
+                    font-size: 2rem;
+                    grid-area: tituloTresFinales;
+                    justify-self: center;
+                    margin: 1.25rem;
+                }
+                .parrafoTresFin {
+                    font-size: 1.5rem;
+                    grid-area: textoTresFinales;
+                    margin: 1.25rem;
+                }
+                img {
+                    grid-area: fotoTresFinales;
+                    justify-self: center;
+                    align-self: center;
+                    margin: 20px;
+                }
+            }
+        }
+        .titulosIndex {
+            background-image: url(../assets/titulo-personajes.png);
+            text-align: center;
+            background-size:cover;
+            background-repeat: no-repeat;
+            padding: .625rem;
+            font-size: 1.25rem;
+            color: white;
+            text-shadow: 5px 2px 5px black;
+        }
+        section {
+            .parrafosPersonajes {
+                background-color:rgb(197, 130, 236);
+                margin-left: 140px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                margin-right: 60px;
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            }
+            .parrafosPersonajes2 {
+                background-color:rgb(197, 130, 236);
+                margin-left: 60px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                margin-right: 140px;
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            }
+            .personajeEleazar {
+                display: grid;
+                @include grid (20% 1fr, auto, none, none, "fotoEleazar tituloEleazar" "fotoEleazar textoEleazar");
+                h3 {
+                    font-size: 2rem;
+                    grid-area: tituloEleazar;
+                    justify-self: center;
+                    margin: 1.25rem;
+                    text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966);
+                }
+                p {
+                    font-size: 1.5rem;
+                    grid-area: textoEleazar;
+                    margin: 1.25rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966);
+                }
+                img {
+                    grid-area: fotoEleazar;
+                    align-self: center;
+                    justify-self: center;
+                }
+            }
+            .personajeRanrok {
+                display: grid;
+                @include grid (1fr 20%, auto, none, none, "tituloRanrok fotoRanrok" "textoRanrok fotoRanrok");
+                h3 {
+                    font-size: 2rem;
+                    grid-area: tituloRanrok;
+                    justify-self: center;
+                    margin: 1.25rem;
+                    text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966);
+                }
+                p {
+                    font-size: 1.5rem;
+                    grid-area: textoRanrok;
+                    margin: 1.25rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966);
+                }
+                img {
+                    grid-area: fotoRanrok;
+                    align-self: center;
+                    justify-self: center;
+                }
+            }
+            .personajeVictor {
+                display: grid;
+                @include grid (20% 1fr, auto, none, none, "fotoVictor tituloVictor" "fotoVictor textoVictor");
+                img {
+                    grid-area: fotoVictor;
+                    align-self: center;
+                    justify-self: center;
+                }
+                h3 {
+                    font-size: 2rem;
+                    grid-area: tituloVictor;
+                    justify-self: center;
+                    margin: 1.25rem;
+                    text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966);
+                }
+                p {
+                    font-size: 1.5rem;
+                    grid-area: textoVictor;
+                    margin: 1.25rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966);
+                }
+            }
+        }
+        .divForm {
+            form {
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+                display: flex;
+                @include flex (column, center, none, none);
+                width: 70%;
+                margin: 20px auto;
+                margin-bottom: 0;
+                padding: 30px;
+                background-color: rgb(193, 160, 224);
+                flex-wrap: wrap;
+                text-shadow: 0.5px 0.5px 0.5px black;
+                font-weight: bold;
+                input {
+                    width: 20%;
+                    margin: 9px 0;
+                    &:hover {
+                        background-color: rgba(255, 255, 255, 0.822);
+                    }
+                }
+                .enviar {
+                    width: 100px;
+                    align-self: center;
+                    margin-top: 20px;
+                    &:hover {
+                        background-color: rgba(255, 255, 255, 0.726);
+                        border: 2px rgba(0, 0, 0, 0.562) solid;
+                    }
+                }
+                label {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}

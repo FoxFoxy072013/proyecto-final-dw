@@ -1,0 +1,27 @@
+@media (max-width: 415px) {
+    body {
+        .mainIndex {
+            .divForm {
+                form {
+                    .inputs {
+                        height: 40%;
+                    }
+                    label {
+                        font-size: 0.5rem;
+                    }
+                    textarea {
+                        width: 100%;
+                        align-self: center;
+                    }
+                }
+            }
+        }
+        footer {
+            .footerNombre {
+                h5 {
+                    font-size: 0.5rem;
+                }
+            }
+        }
+    }
+}

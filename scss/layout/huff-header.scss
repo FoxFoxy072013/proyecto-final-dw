@@ -1,0 +1,36 @@
+body {
+    .navbarH {
+        display: none;
+    }
+    .headerHufflepuff {
+        background-color: rgba(131, 101, 53, 1);
+        nav {
+            .menuHufflepuff {
+                ul {
+                    list-style-type: none;
+                    background-color: rgba(131, 101, 53, 1);
+                    padding: 0;
+                    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.603);
+                    display: flex;
+                    @include flex (row, flex-end, right, none);
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        background-color: rgb(224, 195, 121);
+                        padding-left: .9375rem;
+                        padding-top: 1.25rem;
+                        padding-right: .9375rem;
+                        font-size: 1.875rem;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: bold;
+                        text-shadow: 1px 1px 1px rgb(71, 68, 28);
+                        &:hover {
+                            border: 3px rgb(233, 220, 36) solid;
+                            background-color: rgb(235, 211, 151);
+                        }
+                    }
+                }
+            }
+        } 
+    }
+}

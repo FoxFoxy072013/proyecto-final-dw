@@ -1,0 +1,36 @@
+body {
+    .navbarS {
+        display: none;
+    }
+    .headerSlytherin {
+        background-color: rgba(11, 56, 37, 1);
+        nav {
+            .menuSlytherin {
+                ul {
+                    list-style-type: none;
+                    background-color: rgba(11, 56, 37, 1);
+                    padding: 0;
+                    display: flex;
+                    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.603);
+                    @include flex (row, flex-end, right, none);
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        background-color: rgb(128, 209, 170);
+                        padding-left: .9375rem;
+                        padding-top: 1.25rem;
+                        padding-right: .9375rem;
+                        font-size: 1.875rem;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: bold;
+                        text-shadow: 1px 1px 1px rgb(28, 71, 34);
+                        &:hover {
+                            border: 3px rgb(50, 235, 44) solid;
+                            background-color: rgb(123, 211, 168);
+                        }
+                    }
+                }
+            }
+        } 
+    }
+}

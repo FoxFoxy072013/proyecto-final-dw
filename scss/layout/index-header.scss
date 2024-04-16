@@ -1,0 +1,36 @@
+body {
+    .navbar {
+        display: none;
+    }
+    .headerIndex {
+        background-color: rgba(91, 8, 136, 1);
+        nav {
+            .menuIndex {
+                ul {
+                    list-style-type: none;
+                    background-color: rgba(91, 8, 136, 1);
+                    padding: 0;
+                    display: flex;
+                    @include flex (row, flex-end, right, none);
+                    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.603);
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        background-color: rgba(140, 96, 201, 0.863);
+                        padding-left: .9375rem;
+                        padding-top: 1.25rem;
+                        padding-right: .9375rem;
+                        font-size: 1.875rem;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: bold;
+                        text-shadow: 1px 1px 1px rgb(68, 28, 71);
+                        &:hover {
+                            border: 3px rgb(196, 11, 233) solid;
+                            background-color: rgba(173, 136, 226, 0.884);
+                        }
+                    }
+                }
+            }
+        } 
+    }
+}
