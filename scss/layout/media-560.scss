@@ -15,7 +15,7 @@
                         }
                     }
                 }
-                background-color: rgba(152, 57, 204, 0.774);
+                background-color: rgba(185, 120, 219, 0.774);
                 .navbar-brand {
                     img {
                         width: 30%;
@@ -32,7 +32,14 @@
                 width: 100%;
             }
             section {
+                .parrafosIndex {
+                    margin-right: 30px;
+                    margin-left: 30px;
+                }
                 .parrafoIndexSobreHL {
+                    .parrafoSobreHL {
+                        margin: 5px;
+                    }
                     display: flex;
                     @include flex (column, center, center, 10px);
                     img {
@@ -40,12 +47,19 @@
                     }
                 }
                 .parrafoIndexTrailer {
+                    .parrafoJugabIndex {
+                        padding: 0;
+                        margin: 5px;
+                    }
                     video {
                         width: 100%;
                         padding: 0 20px 0 20px;
                     }
                 }
                 .parrafoIndexFinales {
+                    .parrafoTresFin {
+                        margin: 5px;
+                    }
                     display: flex;
                     @include flex (column, center, center, 10px);
                     img {
@@ -115,6 +129,8 @@
         .mainGryffindor {
             section {
                 .parrafosGryffindor {
+                    margin-right: 30px;
+                    margin-left: 30px;
                     display: flex;
                     @include flex (column, center, center, 10px);
                     img {
@@ -132,6 +148,8 @@
         .mainHufflepuff {
             section {
                 .parrafosHufflepuff {
+                    margin-right: 30px;
+                    margin-left: 30px;
                     display: flex;
                     @include flex (column, center, center, 10px);
                     img {
@@ -149,6 +167,8 @@
         .mainRavenclaw {
             section {
                 .parrafosRavenclaw {
+                    margin-right: 30px;
+                    margin-left: 30px;
                     display: flex;
                     @include flex (column, center, center, 10px);
                     img {
@@ -166,6 +186,8 @@
         .mainSlytherin {
             section {
                 .parrafosSlytherin {
+                    margin-right: 30px;
+                    margin-left: 30px;
                     display: flex;
                     @include flex (column, center, center, 10px);
                     img {

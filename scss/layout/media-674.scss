@@ -67,6 +67,7 @@
                 padding-top: 0;
                 display: block;
                 .container-fluid {
+                    background-color: rgba(219, 131, 113, 0.705);
                     .collapse {
                         ul {
                             li {
@@ -78,7 +79,6 @@
                             }
                         }
                     }
-                    background-color: rgba(180, 72, 51, 0.705);
                     .navbar-brand {
                         img {
                             width: 30%;
@@ -95,9 +95,11 @@
                 .parrafosGryffindor {
                     h3 {
                         font-size: 1.3rem;
+                        margin-bottom: 10px;
                     }
                     p {
                         font-size: 0.6rem;
+                        margin: 5px;
                     }
                 }
             }
@@ -137,9 +139,11 @@
                 .parrafosHufflepuff {
                     h3 {
                         font-size: 1.3rem;
+                        margin-bottom: 10px;
                     }
                     p {
                         font-size: 0.6rem;
+                        margin: 5px;
                     }
                 }
             }
@@ -179,9 +183,11 @@
                 .parrafosRavenclaw {
                     h3 {
                         font-size: 1.3rem;
+                        margin-bottom: 10px;
                     }
                     p {
                         font-size: 0.6rem;
+                        margin: 5px;
                     }
                 }
             }
@@ -221,9 +227,11 @@
                 .parrafosSlytherin {
                     h3 {
                         font-size: 1.3rem;
+                        margin-bottom: 10px;
                     }
                     p {
                         font-size: 0.6rem;
+                        margin: 5px;
                     }
                 }
             }

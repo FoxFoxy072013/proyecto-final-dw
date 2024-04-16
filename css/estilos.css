@@ -163,7 +163,7 @@ body .headerSlytherin {
         background-color: #7bd3a8; }
 
 body {
-  background-color: rgba(116, 114, 114, 0.795); }
+  background-color: rgba(190, 190, 190, 0.795); }
   body .mainIndex .tituloIndex {
     color: rgba(0, 0, 0, 0.781);
     font-size: 1.5625rem;
@@ -472,7 +472,6 @@ body .mainGryffindor section .personajes {
   gap: none; }
   body .mainGryffindor section .personajes .natsai, body .mainGryffindor section .personajes .garreth, body .mainGryffindor section .personajes .lucan, body .mainGryffindor section .personajes .nellie, body .mainGryffindor section .personajes .lawrence {
     color: white;
-    font-size: 1rem;
     border: 2px solid #851800;
     background-color: #350000;
     border-radius: 20%;
@@ -483,6 +482,8 @@ body .mainGryffindor section .personajes {
     margin-top: 20px;
     margin-bottom: 20px;
     text-shadow: 8px 2px 5px rgba(0, 0, 0, 0.644); }
+    body .mainGryffindor section .personajes .natsai h4, body .mainGryffindor section .personajes .garreth h4, body .mainGryffindor section .personajes .lucan h4, body .mainGryffindor section .personajes .nellie h4, body .mainGryffindor section .personajes .lawrence h4 {
+      font-size: 1rem; }
 
 body .mainHufflepuff .tituloHufflepuff {
   color: rgba(0, 0, 0, 0.781);
@@ -1142,7 +1143,7 @@ body footer {
     padding-top: 0;
     display: block; }
     body .menuHG .navbar .container-fluid {
-      background-color: #5d1607; }
+      background-color: rgba(219, 131, 113, 0.705); }
       body .menuHG .navbar .container-fluid .collapse ul li a {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
@@ -1152,9 +1153,11 @@ body footer {
   body .headerGryffindor {
     display: none; }
   body .mainGryffindor section .parrafosGryffindor h3 {
-    font-size: 1.3rem; }
+    font-size: 1.3rem;
+    margin-bottom: 10px; }
   body .mainGryffindor section .parrafosGryffindor p {
-    font-size: 0.6rem; }
+    font-size: 0.6rem;
+    margin: 5px; }
   body .menuHH .navbar {
     padding-top: 0;
     display: block; }
@@ -1169,9 +1172,11 @@ body footer {
   body .headerHufflepuff {
     display: none; }
   body .mainHufflepuff section .parrafosHufflepuff h3 {
-    font-size: 1.3rem; }
+    font-size: 1.3rem;
+    margin-bottom: 10px; }
   body .mainHufflepuff section .parrafosHufflepuff p {
-    font-size: 0.6rem; }
+    font-size: 0.6rem;
+    margin: 5px; }
   body .menuHR .navbar {
     padding-top: 0;
     display: block; }
@@ -1186,9 +1191,11 @@ body footer {
   body .headerRavenclaw {
     display: none; }
   body .mainRavenclaw section .parrafosRavenclaw h3 {
-    font-size: 1.3rem; }
+    font-size: 1.3rem;
+    margin-bottom: 10px; }
   body .mainRavenclaw section .parrafosRavenclaw p {
-    font-size: 0.6rem; }
+    font-size: 0.6rem;
+    margin: 5px; }
   body .menuHS .navbar {
     padding-top: 0;
     display: block; }
@@ -1203,16 +1210,18 @@ body footer {
   body .headerSlytherin {
     display: none; }
   body .mainSlytherin section .parrafosSlytherin h3 {
-    font-size: 1.3rem; }
+    font-size: 1.3rem;
+    margin-bottom: 10px; }
   body .mainSlytherin section .parrafosSlytherin p {
-    font-size: 0.6rem; } }
+    font-size: 0.6rem;
+    margin: 5px; } }
 
 @media (max-width: 560px) {
   body .navbar {
     padding-top: 0;
     display: block; }
     body .navbar .container-fluid {
-      background-color: #5b0888; }
+      background-color: rgba(185, 120, 219, 0.774); }
       body .navbar .container-fluid .collapse ul li a {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
@@ -1224,14 +1233,22 @@ body footer {
   body .mainIndex .tituloIndex {
     font-size: 0.9rem;
     width: 100%; }
+  body .mainIndex section .parrafosIndex {
+    margin-right: 30px;
+    margin-left: 30px; }
   body .mainIndex section .parrafoIndexSobreHL {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px; }
+    body .mainIndex section .parrafoIndexSobreHL .parrafoSobreHL {
+      margin: 5px; }
     body .mainIndex section .parrafoIndexSobreHL img {
       padding: 0 20px 0 20px; }
+  body .mainIndex section .parrafoIndexTrailer .parrafoJugabIndex {
+    padding: 0;
+    margin: 5px; }
   body .mainIndex section .parrafoIndexTrailer video {
     width: 100%;
     padding: 0 20px 0 20px; }
@@ -1241,6 +1258,8 @@ body footer {
     justify-content: center;
     align-items: center;
     gap: 10px; }
+    body .mainIndex section .parrafoIndexFinales .parrafoTresFin {
+      margin: 5px; }
     body .mainIndex section .parrafoIndexFinales img {
       padding: 0 20px 0 20px; }
   body .mainIndex section .parrafosPersonajes {
@@ -1287,6 +1306,8 @@ body footer {
         max-width: 70%;
         height: auto; }
   body .mainGryffindor section .parrafosGryffindor {
+    margin-right: 30px;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1298,6 +1319,8 @@ body footer {
       width: 100%;
       padding: 0 20px 0 20px; }
   body .mainHufflepuff section .parrafosHufflepuff {
+    margin-right: 30px;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1309,6 +1332,8 @@ body footer {
       width: 100%;
       padding: 0 20px 0 20px; }
   body .mainRavenclaw section .parrafosRavenclaw {
+    margin-right: 30px;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1320,6 +1345,8 @@ body footer {
       width: 100%;
       padding: 0 20px 0 20px; }
   body .mainSlytherin section .parrafosSlytherin {
+    margin-right: 30px;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1339,5 +1366,13 @@ body footer {
   body .mainIndex .divForm form textarea {
     width: 100%;
     align-self: center; }
+  body .mainIndex section .parrafosPersonajes {
+    margin-left: 60px; }
+    body .mainIndex section .parrafosPersonajes p {
+      padding: 0 10px 0 10px; }
+  body .mainIndex section .parrafosPersonajes2 {
+    margin-right: 60px; }
+    body .mainIndex section .parrafosPersonajes2 p {
+      padding: 0 10px 0 10px; }
   body footer .footerNombre h5 {
     font-size: 0.5rem; } }
