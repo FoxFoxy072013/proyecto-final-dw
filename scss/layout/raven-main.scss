@@ -13,7 +13,8 @@ body {
             .parrafosRavenclaw {
                 background-color: rgb(140, 177, 219);
                 margin: 30px 60px;
-                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+                border-radius: 5%;
+                box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
                 h3 {
                     font-size: 2rem;
                     text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966);
@@ -39,6 +40,7 @@ body {
                 img {
                     grid-area: FotoLogoR;
                     align-self: center;
+                    border-radius: 5%;
                     justify-self: center;
                 }
             }
@@ -79,6 +81,7 @@ body {
                 img {
                     grid-area: FotoJugR;
                     align-self: center;
+                    border-radius: 6%;
                     justify-self: center;
                     padding: 20px;
                 }

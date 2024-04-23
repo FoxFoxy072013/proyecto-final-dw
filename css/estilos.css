@@ -163,7 +163,7 @@ body .headerSlytherin {
         background-color: #7bd3a8; }
 
 body {
-  background-color: rgba(238, 238, 238, 0.911); }
+  background-color: rgba(204, 202, 202, 0.822); }
   body .mainIndex .tituloIndex {
     color: rgba(0, 0, 0, 0.781);
     font-size: 1.5625rem;
@@ -174,7 +174,8 @@ body {
   body .mainIndex section .parrafosIndex {
     background-color: #c582ec;
     margin: 30px 60px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+    box-shadow: 0 26px 58px 0 rgba(0, 0, 0, 0.22), 0 5px 14px 0 rgba(0, 0, 0, 0.18);
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -202,7 +203,8 @@ body {
       grid-area: FotoSobreHL;
       margin: 20px;
       align-self: center;
-      justify-self: center; }
+      justify-self: center;
+      border-radius: 5%; }
   body .mainIndex section .parrafoIndexTrailer {
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -263,16 +265,18 @@ body {
     background-color: #c582ec;
     margin-left: 140px;
     margin-top: 30px;
+    border-radius: 5%;
+    box-shadow: 0 26px 58px 0 rgba(0, 0, 0, 0.22), 0 5px 14px 0 rgba(0, 0, 0, 0.18);
     margin-bottom: 30px;
-    margin-right: 60px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
+    margin-right: 60px; }
   body .mainIndex section .parrafosPersonajes2 {
     background-color: #c582ec;
     margin-left: 60px;
     margin-top: 30px;
+    border-radius: 5%;
+    box-shadow: 0 26px 58px 0 rgba(0, 0, 0, 0.22), 0 5px 14px 0 rgba(0, 0, 0, 0.18);
     margin-bottom: 30px;
-    margin-right: 140px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
+    margin-right: 140px; }
   body .mainIndex section .personajeEleazar {
     display: grid;
     grid-template-columns: 20% 1fr;
@@ -383,7 +387,8 @@ body .mainGryffindor .tituloGryffindor {
 body .mainGryffindor section .parrafosGryffindor {
   background-color: #ecb5a9;
   margin: 30px 60px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
+  border-radius: 5%;
+  box-shadow: 0 26px 58px 0 rgba(0, 0, 0, 0.22), 0 5px 14px 0 rgba(0, 0, 0, 0.18); }
   body .mainGryffindor section .parrafosGryffindor h3 {
     font-size: 2rem;
     text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966); }
@@ -409,7 +414,8 @@ body .mainGryffindor section .parrafoCasaG {
   body .mainGryffindor section .parrafoCasaG img {
     grid-area: FotoLogoG;
     align-self: center;
-    justify-self: center; }
+    justify-self: center;
+    border-radius: 5%; }
 
 body .mainGryffindor section .parrafoSalaG {
   display: grid;
@@ -451,7 +457,8 @@ body .mainGryffindor section .jugabilidadCasaG {
     grid-area: FotoJugG;
     align-self: center;
     justify-self: center;
-    padding: 20px; }
+    padding: 20px;
+    border-radius: 5%; }
 
 body .mainGryffindor section .tituloPersonajesGryff {
   background-image: url(../assets/gryff/titulo-personajes.png);
@@ -496,7 +503,8 @@ body .mainHufflepuff .tituloHufflepuff {
 body .mainHufflepuff section .parrafosHufflepuff {
   background-color: #cfb487;
   margin: 30px 60px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
+  border-radius: 5%;
+  box-shadow: 0 26px 58px 0 rgba(0, 0, 0, 0.22), 0 5px 14px 0 rgba(0, 0, 0, 0.18); }
 
 body .mainHufflepuff section h3 {
   font-size: 2rem;
@@ -524,7 +532,8 @@ body .mainHufflepuff section .parrafoCasaH {
   body .mainHufflepuff section .parrafoCasaH img {
     grid-area: FotoLogoH;
     align-self: center;
-    justify-self: center; }
+    justify-self: center;
+    border-radius: 5%; }
 
 body .mainHufflepuff section .parrafoSalaH {
   display: grid;
@@ -566,7 +575,8 @@ body .mainHufflepuff section .jugabilidadCasaH {
     grid-area: FotoJugH;
     align-self: center;
     justify-self: center;
-    padding: 20px; }
+    padding: 20px;
+    border-radius: 5%; }
 
 body .mainHufflepuff section .tituloPersonajesHuff {
   background-image: url(../assets/huff/titulo-personajes.png);
@@ -612,7 +622,8 @@ body .mainRavenclaw .tituloRavenclaw {
 body .mainRavenclaw section .parrafosRavenclaw {
   background-color: #8cb1db;
   margin: 30px 60px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
+  border-radius: 5%;
+  box-shadow: 0 26px 58px 0 rgba(0, 0, 0, 0.22), 0 5px 14px 0 rgba(0, 0, 0, 0.18); }
   body .mainRavenclaw section .parrafosRavenclaw h3 {
     font-size: 2rem;
     text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966); }
@@ -638,6 +649,7 @@ body .mainRavenclaw section .parrafoCasaR {
   body .mainRavenclaw section .parrafoCasaR img {
     grid-area: FotoLogoR;
     align-self: center;
+    border-radius: 5%;
     justify-self: center; }
 
 body .mainRavenclaw section .parrafoSalaR {
@@ -679,6 +691,7 @@ body .mainRavenclaw section .jugabilidadCasaR {
   body .mainRavenclaw section .jugabilidadCasaR img {
     grid-area: FotoJugR;
     align-self: center;
+    border-radius: 6%;
     justify-self: center;
     padding: 20px; }
 
@@ -726,7 +739,8 @@ body .mainSlytherin .tituloSlytherin {
 body .mainSlytherin section .parrafosSlytherin {
   background-color: #97ddbf;
   margin: 30px 60px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
+  border-radius: 5%;
+  box-shadow: 0 26px 58px 0 rgba(0, 0, 0, 0.22), 0 5px 14px 0 rgba(0, 0, 0, 0.18); }
   body .mainSlytherin section .parrafosSlytherin h3 {
     font-size: 2rem;
     text-shadow: 0px 0.5px 0.5px rgba(15, 15, 15, 0.966); }
@@ -752,6 +766,7 @@ body .mainSlytherin section .parrafoCasaS {
   body .mainSlytherin section .parrafoCasaS img {
     grid-area: FotoLogoS;
     align-self: center;
+    border-radius: 5%;
     justify-self: center; }
 
 body .mainSlytherin section .parrafoSalaS {
@@ -793,6 +808,7 @@ body .mainSlytherin section .jugabilidadCasaS {
   body .mainSlytherin section .jugabilidadCasaS img {
     grid-area: FotoJugS;
     align-self: center;
+    border-radius: 5%;
     justify-self: center;
     padding: 20px; }
 
@@ -1143,7 +1159,7 @@ body footer {
     padding-top: 0;
     display: block; }
     body .menuHG .navbar .container-fluid {
-      background-color: rgba(240, 164, 149, 0.979); }
+      background-color: rgba(199, 114, 97, 0.979); }
       body .menuHG .navbar .container-fluid .collapse ul li a {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;

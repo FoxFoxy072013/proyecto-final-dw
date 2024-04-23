@@ -13,7 +13,8 @@ body {
             .parrafosHufflepuff {
                 background-color: rgb(207, 180, 135);
                 margin: 30px 60px;
-                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+                border-radius: 5%;
+                box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
             }
             h3 {
                 font-size: 2rem;
@@ -40,6 +41,7 @@ body {
                     grid-area: FotoLogoH;
                     align-self: center;
                     justify-self: center;
+                    border-radius: 5%;
                 }
             }
             .parrafoSalaH {
@@ -81,6 +83,7 @@ body {
                     align-self: center;
                     justify-self: center;
                     padding: 20px;
+                    border-radius: 5%;
                 }
             }
         }

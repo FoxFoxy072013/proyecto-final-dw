@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(238, 238, 238, 0.911);
+    background-color: rgba(204, 202, 202, 0.822);
     .mainIndex {
         .tituloIndex {
             color: rgba(0, 0, 0, 0.781);
@@ -14,7 +14,8 @@ body {
             .parrafosIndex {
                 background-color: rgb(197, 130, 236);
                 margin: 30px 60px;
-                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+                border-radius: 5%;
+                box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
                 display: grid;
                 @include grid (auto, auto, none, none, "SobreHL FotoSobreHL" "TextoSobreHL FotoSobreHL");
                 p {
@@ -44,6 +45,7 @@ body {
                     margin: 20px;
                     align-self: center;
                     justify-self: center;
+                    border-radius: 5%;
                 }
             }
             .parrafoIndexTrailer {
@@ -111,17 +113,19 @@ body {
                 background-color:rgb(197, 130, 236);
                 margin-left: 140px;
                 margin-top: 30px;
+                border-radius: 5%;
+                box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
                 margin-bottom: 30px;
                 margin-right: 60px;
-                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
             }
             .parrafosPersonajes2 {
                 background-color:rgb(197, 130, 236);
                 margin-left: 60px;
                 margin-top: 30px;
+                border-radius: 5%;
+                box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
                 margin-bottom: 30px;
                 margin-right: 140px;
-                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
             }
             .personajeEleazar {
                 display: grid;
